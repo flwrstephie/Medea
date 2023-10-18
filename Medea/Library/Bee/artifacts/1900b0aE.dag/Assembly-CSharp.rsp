@@ -376,11 +376,13 @@
 "Assets/Background/Scroller.cs"
 "Assets/Enemy1Behavior.cs"
 "Assets/Enemy2Behavior.cs"
+"Assets/Enemy3Behavior.cs"
 "Assets/PlayerMovement.cs"
 "Assets/powerUpTracker.cs"
 "Assets/ProjectileDespawn.cs"
 "Assets/scoreTracker.cs"
 "Assets/Spawner1.cs"
+"Assets/Spawner2.cs"
 -langversion:9.0
 
 /deterministic

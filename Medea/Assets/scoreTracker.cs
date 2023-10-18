@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class ScoreTracker : MonoBehaviour
 {
     public int score;
     private int hp=5;
+    public Text scoreText;
 
     public float scoreIncrementInterval = 1.0f; // Interval in seconds to increment the score.
     private float nextScoreIncrementTime;
@@ -25,6 +27,7 @@ public class ScoreTracker : MonoBehaviour
         {
             IncrementScore(100); // Increment the score by 100 every second.
             nextScoreIncrementTime = Time.time + scoreIncrementInterval;
+            scoreText.text = score.ToString();
         }
     }
 

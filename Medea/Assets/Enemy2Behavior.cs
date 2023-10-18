@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy2Behavior : MonoBehaviour
 {
-    private int hp=6;
+    public int hp=2;
     public ScoreTracker score;
     // Called when a trigger collision occurs
     private void OnTriggerEnter2D(Collider2D other)
@@ -24,7 +24,7 @@ public class Enemy2Behavior : MonoBehaviour
             }
             else
             {
-                score.IncrementScore(650);
+                score.IncrementScore(750);
                 Destroy(gameObject);
             }
         }
