@@ -6,6 +6,8 @@ TagManager:
   tags:
   - despawn
   - children
+  - projectile
+  - enemy
   layers:
   - Default
   - TransparentFX
