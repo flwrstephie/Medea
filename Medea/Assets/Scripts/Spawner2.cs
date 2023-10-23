@@ -58,9 +58,18 @@ public class Spawner2 : MonoBehaviour
         {
             enemy3.hp = 80;
         }
-        else if (score.score >= 86500)
+        else if (score.score >= 86500 &&  score.score < 125000)
         {
             spawnInterval = 7.0f;
+        }
+        else if (score.score >= 125000 && score.score < 175000)
+        {
+            enemy3.hp = 120;
+        }
+        else if (score.score >= 175000)
+        {
+            spawnInterval = 5.0f;
+            enemy3.hp = 160;
         }
     }
 }

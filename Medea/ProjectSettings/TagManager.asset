@@ -8,6 +8,7 @@ TagManager:
   - children
   - projectile
   - enemy
+  - deleter
   layers:
   - Default
   - TransparentFX

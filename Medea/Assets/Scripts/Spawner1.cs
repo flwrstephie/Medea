@@ -107,11 +107,23 @@ public class Spawner1 : MonoBehaviour
             enemy1.hp = 18;
             enemy2.hp = 7;
         }
-        else if (score.score >= 100000)
+        else if (score.score >= 100000 && score.score < 140000)
         {
             spawnInterval = 0.25f;
             enemy1.hp = 28;
             enemy2.hp = 10;
+        }
+        else if (score.score >= 140000 && score.score < 200000)
+        {
+            spawnInterval = 0.20f;
+            enemy1.hp = 40;
+            enemy2.hp = 15;
+        }
+        else if (score.score >= 200000)
+        {
+            spawnInterval = 0.17777f;
+            enemy1.hp = 50;
+            enemy2.hp = 25;
         }
     }
 
@@ -137,7 +149,7 @@ public class Spawner1 : MonoBehaviour
         {
             spawn2Threshold = 0.45f;
         }
-        else if (score.score >= 55000)
+        else if (score.score >= 55000 && score.score < 80000)
         {
             spawn2Threshold = 0.50f;
         }
