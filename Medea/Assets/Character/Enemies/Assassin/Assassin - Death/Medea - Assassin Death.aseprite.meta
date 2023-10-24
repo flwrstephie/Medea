@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 22b63b1577970324f8e9fe1b9f9e253d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Medea - Assassin Death_Frame_0
+    originalName: 
+    pivot: {x: 0.58695656, y: -0.4166667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 23
+      height: 48
+    spriteID: 47502859ce1e794439d9e3f305cabd98
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Medea - Assassin Death_Frame_1
+    originalName: 
+    pivot: {x: 0.58695656, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 4
+      width: 23
+      height: 48
+    spriteID: 3fc0e6992a22eac499a6f10f64d8a891
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 4}
+  - name: Medea - Assassin Death_Frame_2
+    originalName: 
+    pivot: {x: 0.58695656, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 4
+      width: 23
+      height: 48
+    spriteID: 36e167b50a28b204d9cced7ff6f98792
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 4}
+  - name: Medea - Assassin Death_Frame_3
+    originalName: 
+    pivot: {x: 0.58695656, y: -0.5416667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 97
+      y: 4
+      width: 23
+      height: 48
+    spriteID: be70b19254a6a85448ec08aabc5582c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 97, y: 4}
+  - name: Medea - Assassin Death_Frame_4
+    originalName: 
+    pivot: {x: 0.58695656, y: -0.7906977}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 60
+      width: 23
+      height: 43
+    spriteID: 9649115eab9dc7942b911a8fdd30ee17
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 60}
+  - name: Medea - Assassin Death_Frame_5
+    originalName: 
+    pivot: {x: 0.58695656, y: -1.6874999}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 60
+      width: 23
+      height: 32
+    spriteID: 201c600b0b176ce4088cf764db6853e0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 60}
+  - name: Medea - Assassin Death_Frame_6
+    originalName: 
+    pivot: {x: 0.46874997, y: -3.4500003}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 60
+      width: 16
+      height: 20
+    spriteID: 09e87da16aa3d5e4d8ca65853fc08b3c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 60}
+  - name: Medea - Assassin Death_Frame_7
+    originalName: 
+    pivot: {x: 0.45833328, y: -6.666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 111
+      width: 12
+      height: 12
+    spriteID: cab07dc9779d74c4cb5b5c83ddf960eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 111}
+  - name: Medea - Assassin Death_Frame_8
+    originalName: 
+    pivot: {x: 0.45000002, y: -7.7}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 100
+      width: 10
+      height: 10
+    spriteID: 85f4d9115de6b5142b515eb9129a5643
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 100}
+  - name: Medea - Assassin Death_Frame_9
+    originalName: 
+    pivot: {x: 0.49999994, y: -7.3636365}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 100
+      width: 11
+      height: 11
+    spriteID: e588a23b136d3bc41be3d91972099d8e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 100}
+  - name: Medea - Assassin Death_Frame_10
+    originalName: 
+    pivot: {x: 0.6052632, y: -3.8947368}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 66
+      y: 60
+      width: 19
+      height: 19
+    spriteID: b5164ef5819901a4eb3cdf3966b8364c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 66, y: 60}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 994816364
+    name: Medea - Assassin Death
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Medea - Assassin Death_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 20
+        y: 20
+        width: 23
+        height: 48
+      spriteId: 47502859ce1e794439d9e3f305cabd98
+    - name: Medea - Assassin Death_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 20
+        y: 24
+        width: 23
+        height: 48
+      spriteId: 3fc0e6992a22eac499a6f10f64d8a891
+    - name: Medea - Assassin Death_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 20
+        y: 24
+        width: 23
+        height: 48
+      spriteId: 36e167b50a28b204d9cced7ff6f98792
+    - name: Medea - Assassin Death_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 20
+        y: 26
+        width: 23
+        height: 48
+      spriteId: be70b19254a6a85448ec08aabc5582c5
+    - name: Medea - Assassin Death_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 20
+        y: 34
+        width: 23
+        height: 43
+      spriteId: 9649115eab9dc7942b911a8fdd30ee17
+    - name: Medea - Assassin Death_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 20
+        y: 54
+        width: 23
+        height: 32
+      spriteId: 201c600b0b176ce4088cf764db6853e0
+    - name: Medea - Assassin Death_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 26
+        y: 69
+        width: 16
+        height: 20
+      spriteId: 09e87da16aa3d5e4d8ca65853fc08b3c
+    - name: Medea - Assassin Death_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 28
+        y: 80
+        width: 12
+        height: 12
+      spriteId: cab07dc9779d74c4cb5b5c83ddf960eb
+    - name: Medea - Assassin Death_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 29
+        y: 77
+        width: 10
+        height: 10
+      spriteId: 85f4d9115de6b5142b515eb9129a5643
+    - name: Medea - Assassin Death_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 28
+        y: 81
+        width: 11
+        height: 11
+      spriteId: e588a23b136d3bc41be3d91972099d8e
+    - name: Medea - Assassin Death_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 22
+        y: 74
+        width: 19
+        height: 19
+      spriteId: b5164ef5819901a4eb3cdf3966b8364c
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 67, y: 98}
