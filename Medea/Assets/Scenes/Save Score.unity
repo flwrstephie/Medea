@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 224810819}
   - component: {fileID: 224810818}
   m_Layer: 5
-  m_Name: InputField (Legacy)
+  m_Name: Player Name Input
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -327,7 +327,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 698146cb1d53ef449853fae1c4ee3637, type: 3}
     m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
@@ -360,8 +360,9 @@ GameObject:
   - component: {fileID: 815558776}
   - component: {fileID: 815558775}
   - component: {fileID: 815558774}
+  - component: {fileID: 815558777}
   m_Layer: 5
-  m_Name: Button (Legacy)
+  m_Name: Submit Score Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -384,7 +385,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -362}
+  m_AnchoredPosition: {x: 7, y: -297}
   m_SizeDelta: {x: 1407.8868, y: 237.8038}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &815558774
@@ -430,7 +431,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 815558775}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 815558777}
+        m_TargetAssemblyTypeName: ScoreSubmissionUI, Assembly-CSharp
+        m_MethodName: SubmitScore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &815558775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -469,6 +482,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815558772}
   m_CullTransparentMesh: 1
+--- !u!114 &815558777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 815558772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e826e394ccbe2418b3325c5c971d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerNameInput: {fileID: 224810818}
+  playerScore: {fileID: 937994583}
+  leaderboardManager: {fileID: 2037329004}
 --- !u!1 &937994582
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +509,7 @@ GameObject:
   - component: {fileID: 937994584}
   - component: {fileID: 937994583}
   m_Layer: 5
-  m_Name: Text (Legacy)
+  m_Name: PlayerScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -508,8 +536,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 120
+    m_Font: {fileID: 12800000, guid: 698146cb1d53ef449853fae1c4ee3637, type: 3}
+    m_FontSize: 100
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -545,8 +573,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 448.83, y: 362}
-  m_SizeDelta: {x: 1022.3418, y: 191.6891}
+  m_AnchoredPosition: {x: 500.7, y: 362}
+  m_SizeDelta: {x: 918.6, y: 191.6891}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &965218310
 GameObject:
@@ -560,7 +588,7 @@ GameObject:
   - component: {fileID: 965218313}
   - component: {fileID: 965218312}
   m_Layer: 5
-  m_Name: Text (Legacy) (1)
+  m_Name: Final Score(Text)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -582,8 +610,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -440.885, y: 362}
-  m_SizeDelta: {x: 964.5718, y: 191.69}
+  m_AnchoredPosition: {x: -448.56314, y: 362}
+  m_SizeDelta: {x: 979.928, y: 191.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965218312
 MonoBehaviour:
@@ -606,9 +634,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 125
-    m_FontStyle: 3
+    m_Font: {fileID: 12800000, guid: 698146cb1d53ef449853fae1c4ee3637, type: 3}
+    m_FontSize: 100
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 300
@@ -617,7 +645,7 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
+    m_LineSpacing: 3.07
   m_Text: 'FINAL SCORE:'
 --- !u!222 &965218313
 CanvasRenderer:
@@ -685,8 +713,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 100
+    m_Font: {fileID: 12800000, guid: 698146cb1d53ef449853fae1c4ee3637, type: 3}
+    m_FontSize: 75
     m_FontStyle: 3
     m_BestFit: 0
     m_MinSize: 0
@@ -951,7 +979,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 698146cb1d53ef449853fae1c4ee3637, type: 3}
     m_FontSize: 14
     m_FontStyle: 2
     m_BestFit: 0
@@ -1064,10 +1092,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2037329003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2037329005}
+  - component: {fileID: 2037329004}
+  m_Layer: 0
+  m_Name: LeaderboardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2037329004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037329003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c81b12a26a5d7734ab02ea773d9afcd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2037329005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037329003}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1051.3999, y: 546.1057, z: -0.31350762}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1916646511}
+  - {fileID: 2037329005}
   - {fileID: 1688261246}
   - {fileID: 1168565582}
