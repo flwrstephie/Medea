@@ -6,6 +6,7 @@ public class ScoreSubmissionUI : MonoBehaviour
     public InputField playerNameInput;
     public Text playerScore;
     public LeaderboardManager leaderboardManager;
+    public GameObject ScoreSavedScreen;
 
     public void SubmitScore()
     {
@@ -15,5 +16,10 @@ public class ScoreSubmissionUI : MonoBehaviour
         // Call the AddScore method from the leaderboard manager.
         leaderboardManager.AddScore(playerName, score);
         Debug.Log("Score Added!");
+    }
+
+    public void ScoreSubmitted()
+    {
+        ScoreSavedScreen.SetActive(true);
     }
 }

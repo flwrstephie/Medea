@@ -22,8 +22,19 @@ public class startManager : MonoBehaviour
         SceneManager.LoadScene("PlayScene");
     }
 
+    public void MainMenu()
+    {
+        SceneManager.LoadScene("StartScreen");
+    }
+
+    public void ViewLeaderboard()
+    {
+        SceneManager.LoadScene("Leaderboard");
+    }
+
     public void QuitGame()
     {
         Application.Quit();
     }
+
 }
