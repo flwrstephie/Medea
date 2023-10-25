@@ -6,6 +6,7 @@ public class Enemy3Behavior : MonoBehaviour
 {
     public int hp=40;
     public ScoreTracker score;
+    public GameObject deathPrefab;
     // Called when a trigger collision occurs
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -25,6 +26,7 @@ public class Enemy3Behavior : MonoBehaviour
             else
             {
                 score.IncrementScore(1200);
+                Instantiate(deathPrefab, transform.position, Quaternion.identity);
                 Destroy(gameObject);
             }
         }

@@ -29,7 +29,6 @@ public class fallDown : MonoBehaviour
     {
         if (other.isTrigger && other.CompareTag("deleter"))
         {
-            Debug.Log("Trigger entered!");
             Destroy(gameObject);
         }
     }
