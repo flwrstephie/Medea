@@ -5,11 +5,11 @@ using UnityEngine;
 public class healthAnim : MonoBehaviour
 {
     public ScoreTracker score;
-    private bool hp5;
-    private bool hp4;
-    private bool hp3;
-    private bool hp2;
-    private bool hp1;
+    public Animator heart5;
+    public Animator heart4;
+    public Animator heart3;
+    public Animator heart2;
+    public Animator heart1;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,43 +20,51 @@ public class healthAnim : MonoBehaviour
     {
         if(score.hp == 5)
         {
-            hp5 = true;
-            hp4 = false;
-            hp3 = false;
-            hp2 = false;
-            hp1 = false;
+            heart5.SetBool("Alive", true);
+            heart4.SetBool("Alive", true);
+            heart3.SetBool("Alive", true);
+            heart2.SetBool("Alive", true);
+            heart1.SetBool("Alive", true);
         }
         else if(score.hp == 4)
         {
-            hp5 = false;
-            hp4 = true;
-            hp3 = false;
-            hp2 = false;
-            hp1 = false;
+            heart5.SetBool("Alive", false);
+            heart4.SetBool("Alive", true);
+            heart3.SetBool("Alive", true);
+            heart2.SetBool("Alive", true);
+            heart1.SetBool("Alive", true);
         }
         else if (score.hp == 3)
         {
-            hp5 = false;
-            hp4 = false;
-            hp3 = true;
-            hp2 = false;
-            hp1 = false;
+            heart5.SetBool("Alive", false);
+            heart4.SetBool("Alive", false);
+            heart3.SetBool("Alive", true);
+            heart2.SetBool("Alive", true);
+            heart1.SetBool("Alive", true);
         }
         else if (score.hp == 2)
         {
-            hp5 = false;
-            hp4 = false;
-            hp3 = false;
-            hp2 = true;
-            hp1 = false;
+            heart5.SetBool("Alive", false);
+            heart4.SetBool("Alive", false);
+            heart3.SetBool("Alive", false);
+            heart2.SetBool("Alive", true);
+            heart1.SetBool("Alive", true);
         }
         else if (score.hp == 1)
         {
-            hp5 = false;
-            hp4 = false;
-            hp3 = false;
-            hp2 = false;
-            hp1 = true;
+            heart5.SetBool("Alive", false);
+            heart4.SetBool("Alive", false);
+            heart3.SetBool("Alive", false);
+            heart2.SetBool("Alive", false);
+            heart1.SetBool("Alive", true);
+        }
+        else if (score.hp == 0)
+        {
+            heart5.SetBool("Alive", false);
+            heart4.SetBool("Alive", false);
+            heart3.SetBool("Alive", false);
+            heart2.SetBool("Alive", false);
+            heart1.SetBool("Alive", false);
         }
     }
 }
