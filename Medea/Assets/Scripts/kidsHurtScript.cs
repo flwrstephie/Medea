@@ -2,12 +2,11 @@ using UnityEngine;
 
 public class kidsHurtScript : MonoBehaviour
 {
-    private Animator animator;
+    public Animator animator;
     private bool isHurt = false; // Your custom boolean parameter
 
     void Start()
     {
-        animator = GetComponent<Animator>();
     }
 
     void Update()
