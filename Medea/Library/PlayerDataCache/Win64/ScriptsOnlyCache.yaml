@@ -51,8 +51,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -137,25 +139,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 3424}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 5838}
+      Script: {instanceID: 4000}
     - Class: 114
-      Script: {instanceID: 6250}
+      Script: {instanceID: 5870}
     - Class: 114
-      Script: {instanceID: 6624}
+      Script: {instanceID: 6034}
     - Class: 114
-      Script: {instanceID: 7236}
+      Script: {instanceID: 6286}
     - Class: 114
-      Script: {instanceID: 7768}
+      Script: {instanceID: 6660}
     - Class: 114
-      Script: {instanceID: 9648}
+      Script: {instanceID: 7282}
     - Class: 114
-      Script: {instanceID: 9728}
+      Script: {instanceID: 7816}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -206,53 +208,53 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2474}
+      Script: {instanceID: 2380}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2476}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 6250}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 6624}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 7236}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 9644}
+      Script: {instanceID: 3594}
     - Class: 114
-      Script: {instanceID: 9652}
+      Script: {instanceID: 3938}
     - Class: 114
-      Script: {instanceID: 9656}
+      Script: {instanceID: 4124}
     - Class: 114
-      Script: {instanceID: 9660}
+      Script: {instanceID: 4398}
     - Class: 114
-      Script: {instanceID: 9664}
+      Script: {instanceID: 4438}
     - Class: 114
-      Script: {instanceID: 9668}
+      Script: {instanceID: 4674}
     - Class: 114
-      Script: {instanceID: 9672}
+      Script: {instanceID: 4962}
     - Class: 114
-      Script: {instanceID: 9676}
+      Script: {instanceID: 5234}
     - Class: 114
-      Script: {instanceID: 9680}
+      Script: {instanceID: 6194}
     - Class: 114
-      Script: {instanceID: 9684}
+      Script: {instanceID: 6286}
     - Class: 114
-      Script: {instanceID: 9704}
+      Script: {instanceID: 6660}
     - Class: 114
-      Script: {instanceID: 9708}
+      Script: {instanceID: 6728}
     - Class: 114
-      Script: {instanceID: 9712}
+      Script: {instanceID: 7082}
     - Class: 114
-      Script: {instanceID: 9716}
+      Script: {instanceID: 7164}
     - Class: 114
-      Script: {instanceID: 9720}
+      Script: {instanceID: 7282}
     - Class: 114
-      Script: {instanceID: 9724}
+      Script: {instanceID: 7714}
     - Class: 114
-      Script: {instanceID: 9732}
+      Script: {instanceID: 7818}
     - Class: 114
-      Script: {instanceID: 9736}
+      Script: {instanceID: 8894}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -297,29 +299,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 3130}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3424}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 6250}
+      Script: {instanceID: 3938}
     - Class: 114
-      Script: {instanceID: 6624}
+      Script: {instanceID: 5128}
     - Class: 114
-      Script: {instanceID: 7236}
+      Script: {instanceID: 6034}
     - Class: 114
-      Script: {instanceID: 7768}
+      Script: {instanceID: 6286}
     - Class: 114
-      Script: {instanceID: 9648}
+      Script: {instanceID: 6660}
     - Class: 114
-      Script: {instanceID: 9692}
+      Script: {instanceID: 6906}
     - Class: 114
-      Script: {instanceID: 9696}
+      Script: {instanceID: 7282}
     - Class: 114
-      Script: {instanceID: 9732}
+      Script: {instanceID: 7816}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -362,19 +364,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 2830}
+      Script: {instanceID: 2836}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3086}
     - Class: 114
-      Script: {instanceID: 3424}
+      Script: {instanceID: 3432}
     - Class: 114
-      Script: {instanceID: 6250}
+      Script: {instanceID: 6034}
     - Class: 114
-      Script: {instanceID: 6624}
+      Script: {instanceID: 6286}
     - Class: 114
-      Script: {instanceID: 7236}
+      Script: {instanceID: 6660}
     - Class: 114
-      Script: {instanceID: 9648}
+      Script: {instanceID: 7282}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -492,6 +494,12 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
+      Hash: e409be3adeb90b3cc05c2051bd6c4016
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScoreTracker
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -523,9 +531,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: fallDown
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameVisibleMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d456b3f576628a47394546f7a51e71c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Enemy2Behavior
   - hash:
       serializedVersion: 2
       Hash: bcdedb1b3a567eb05111be4716618ce1
@@ -684,6 +704,12 @@ ScriptsOnlyBuild:
     className: UnityOnTransformParentChangedMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 40ea47eb5ee37d9a6ea8704b1697913d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Scroller
+  - hash:
+      serializedVersion: 2
       Hash: 0249933f35dcc970b31eaae0159aebf9
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -720,6 +746,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 6c1719cd4042d3a96fbc82981b95939c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: scoreShower
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -738,10 +770,22 @@ ScriptsOnlyBuild:
     className: AnimationTrack
   - hash:
       serializedVersion: 2
+      Hash: 30af2e6bd47893407ea9cd5c9a650de2
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DisplayLeaderboard
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnCollisionExit2DMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9b5982474f1b15efc09c3000bf9ac3f7
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: healthAnim
   - hash:
       serializedVersion: 2
       Hash: a9340df851e094f0e1a209d8b81aaedc
@@ -763,9 +807,21 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: deleteMisc
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerExitMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ProjectileDespawn
   - hash:
       serializedVersion: 2
       Hash: b18151310f999106767addd7177d1a99
@@ -774,10 +830,22 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Fall
+  - hash:
+      serializedVersion: 2
       Hash: d3550ca29959ded14a048f6dc981f237
     assemblyName: Unity.2D.SpriteShape.Runtime
     namespaceName: 
     className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 6995e17d039e24ccfb2837664ddf2284
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: kidsHurtScript
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -816,6 +884,12 @@ ScriptsOnlyBuild:
     className: ControlPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: e710afd026f3c455155b41221580b0d4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HPOrb
+  - hash:
+      serializedVersion: 2
       Hash: 2b006c27b595e55e112de0e713333574
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
@@ -846,6 +920,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: ccb8ddd286bb65cac92d10393ac76e24
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawner1
+  - hash:
+      serializedVersion: 2
       Hash: fcc569162a8d9bd9df34e8c9dee84212
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
@@ -862,6 +942,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine.Tilemaps
     className: AnimatedTile
+  - hash:
+      serializedVersion: 2
+      Hash: a8d1de16fbea1145f91280bbfdc887aa
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ScoreSubmissionUI
+  - hash:
+      serializedVersion: 2
+      Hash: 65767cbe21a824cea1a0f48824e0b76e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawner4
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -991,6 +1083,12 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: startManager
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnBecameInvisibleMessageListener
@@ -1000,6 +1098,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: d456b3f576628a47394546f7a51e71c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Enemy3Behavior
   - hash:
       serializedVersion: 2
       Hash: be140ea01a11255b651c097661ac55b1
@@ -1038,6 +1142,12 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
+      Hash: d750ea3e58ef5f08444bf561a0cf4ccc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawner3
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1057,9 +1167,27 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LeaderboardManager
+  - hash:
+      serializedVersion: 2
+      Hash: d456b3f576628a47394546f7a51e71c3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Enemy1Behavior
+  - hash:
+      serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnMouseUpAsButtonMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: f6464ad2b058acbf673c53f3a9d629e6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: powerUpTracker
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1134,6 +1262,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 0344e19e5b8736ca17e1911f27cb043b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1150,6 +1284,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: c842b0365e2e3e26ed726d2a1693f51e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Spawner2
   - hash:
       serializedVersion: 2
       Hash: 751e5bae2a317288c2ab58d66687092b
@@ -1290,6 +1430,12 @@ ScriptsOnlyBuild:
     className: SpriteLibraryAsset
   - hash:
       serializedVersion: 2
+      Hash: 751e5bae2a317288c2ab58d66687092b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: EnemyHurtScript
+  - hash:
+      serializedVersion: 2
       Hash: 3324a70611b197df9927d1019ae24ce4
     assemblyName: Unity.2D.PixelPerfect
     namespaceName: UnityEngine.U2D
@@ -1378,150 +1524,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: d456b3f576628a47394546f7a51e71c3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Enemy3Behavior
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: startManager
-  - hash:
-      serializedVersion: 2
-      Hash: d456b3f576628a47394546f7a51e71c3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Enemy1Behavior
-  - hash:
-      serializedVersion: 2
-      Hash: c842b0365e2e3e26ed726d2a1693f51e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Spawner2
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: EnemyHurtScript
-  - hash:
-      serializedVersion: 2
-      Hash: 40ea47eb5ee37d9a6ea8704b1697913d
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Scroller
-  - hash:
-      serializedVersion: 2
-      Hash: 9b5982474f1b15efc09c3000bf9ac3f7
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: healthAnim
-  - hash:
-      serializedVersion: 2
-      Hash: d750ea3e58ef5f08444bf561a0cf4ccc
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Spawner3
-  - hash:
-      serializedVersion: 2
-      Hash: ccb8ddd286bb65cac92d10393ac76e24
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Spawner1
-  - hash:
-      serializedVersion: 2
-      Hash: e409be3adeb90b3cc05c2051bd6c4016
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ScoreTracker
-  - hash:
-      serializedVersion: 2
-      Hash: e710afd026f3c455155b41221580b0d4
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: HPOrb
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: deleteMisc
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: LeaderboardManager
-  - hash:
-      serializedVersion: 2
-      Hash: a8d1de16fbea1145f91280bbfdc887aa
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ScoreSubmissionUI
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Fall
-  - hash:
-      serializedVersion: 2
-      Hash: 6995e17d039e24ccfb2837664ddf2284
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: kidsHurtScript
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: fallDown
-  - hash:
-      serializedVersion: 2
-      Hash: 0344e19e5b8736ca17e1911f27cb043b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerMovement
-  - hash:
-      serializedVersion: 2
-      Hash: f6464ad2b058acbf673c53f3a9d629e6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: powerUpTracker
-  - hash:
-      serializedVersion: 2
-      Hash: 751e5bae2a317288c2ab58d66687092b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ProjectileDespawn
-  - hash:
-      serializedVersion: 2
-      Hash: d456b3f576628a47394546f7a51e71c3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Enemy2Behavior
-  - hash:
-      serializedVersion: 2
-      Hash: 30af2e6bd47893407ea9cd5c9a650de2
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DisplayLeaderboard
-  - hash:
-      serializedVersion: 2
-      Hash: 6c1719cd4042d3a96fbc82981b95939c
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: scoreShower
-  - hash:
-      serializedVersion: 2
-      Hash: 65767cbe21a824cea1a0f48824e0b76e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Spawner4
   platform: 19
   scenePathNames:
   - Assets/Scenes/StartScreen.unity
